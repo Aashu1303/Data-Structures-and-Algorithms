@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp"
+    }
+}
