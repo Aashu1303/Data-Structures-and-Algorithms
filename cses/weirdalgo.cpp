@@ -3,12 +3,9 @@ using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio();
-    cin.tie(0);
-
-    int n;
+    long long n;
     cin >> n;
-    do
+    while (n != 1)
     {
         cout << n << " ";
         if (n % 2)
@@ -19,7 +16,7 @@ int main()
         {
             n = n / 2;
         }
-    } while (n != 1);
-    cout << n;
+    }
+    cout << n << endl;
     return 0;
 }
